@@ -1,0 +1,63 @@
+/* Reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header, .footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background: #444;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 300px;
+    margin: 10px;
+    padding: 20px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        flex: 1 1 100%;
+    }
+}
