@@ -1,0 +1,26 @@
+# Jekyll configuration file
+
+# Set the title of the site
+title: My Awesome Site
+
+# Set the theme
+theme: minima
+
+# Set author details
+author:
+  name: Alexender
+  email: alex2506@gmail.com.com
+
+# Set the base URL
+baseurl: ""
+
+# Set the port
+port: 4000
+
+# Exclude files and folders from the site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
